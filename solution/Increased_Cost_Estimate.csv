@@ -1,0 +1,13 @@
+﻿Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+Increased_Cost_Estimate,US East (N. Virginia),,Amazon CloudFront,0,174.18,2090.16,USD,"Data transfer out to internet (2 TB per month), Number of requests (HTTPS) (99998 per month)"
+Increased_Cost_Estimate,US East (N. Virginia),average: 100 PUT and 10000 GET requests / user / month,S3 Standard,0,909.67,10916.04,USD,S3 Standard storage (2 TB per month)
+Increased_Cost_Estimate,US East (N. Virginia),average: 100 PUT and 10000 GET requests / user / month,Data Transfer,0,0,0.00,USD,
+Increased_Cost_Estimate,US East (N. Virginia),,Amazon Virtual Private Cloud (VPC),0,2282.85,27394.20,USD,Number of NAT Gateways (1)
+Increased_Cost_Estimate,US East (N. Virginia),App Server,Amazon EC2,0,8322.3,99867.60,USD,"Operating system (Linux), Quantity (6), Pricing strategy (EC2 Instance Savings Plans 1 Year No Upfront), Storage amount (3 TB), Instance type (c5.12xlarge), Provisioning IOPS io1 (1000)"
+Increased_Cost_Estimate,US East (N. Virginia),Webserver,Amazon EC2,0,3607.67,43292.04,USD,"Operating system (Linux), Quantity (6), Pricing strategy (EC2 Instance Savings Plans 1 Year No Upfront), Storage amount (3 TB), Instance type (t3.2xlarge), Provisioning IOPS io1 (1000)"
+Increased_Cost_Estimate,US East (N. Virginia),,Amazon RDS for MySQL,0,3068.4,36820.80,USD,"Storage for each RDS instance (Provisioned IOPS SSD (io1)), Storage amount (2 TB), Provisioning IOPS (1000), Quantity (2), Instance type (db.m1.large), Utilization (On-Demand only) (100 %Utilized/Month), Deployment option (Multi-AZ), Pricing strategy (OnDemand), Additional backup storage (10 TB)"
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
