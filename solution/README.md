@@ -5,12 +5,12 @@
 
 # Task 2: Calculate Infrastructure Costs
 
-* For the initial cost estimates see [Initial_Cost_Estimates.csv](Initial_Cost_Estimates.csv) or [this estimate on AWS Pricing Calculator](https://calculator.aws/#/estimate?id=e02419d7f89f49997810226c7be4cd5a155bef16).
-* For the reduced cost estimates see [Reduced_Cost_Estimate.csv](Reduced_Cost_Estimate.csv) or [this estimate on AWS Pricing Calculator](https://calculator.aws/#/estimate?id=16e9b3bb727e1c5ae32d96dd01d77f4904e9c9a1)
+* For the initial cost estimates see [Initial_Cost_Estimates.csv](Initial_Cost_Estimates.csv) or [this estimate on AWS Pricing Calculator](https://calculator.aws/#/estimate?id=5530ec8743cfa6440b514cf0d186c5dcbb4f2bf1).
+* For the reduced cost estimates see [Reduced_Cost_Estimate.csv](Reduced_Cost_Estimate.csv) or [this estimate on AWS Pricing Calculator](https://calculator.aws/#/estimate?id=12a9dce7f88f59b91c0260dfaca12e45340926c4)
   * Webserver instance type reduced from t3.2xlarge to t3.large (8 -> 2 CPU, 32 -> 8 GB RAM)
   * App Server instance type reduced from c5.12xlarge to c5.xlarge (48 -> 4 CPU, 96 -> 8 GB RAM)
   * Webserver and App Server IOPS both reduced from 1000 to 500
-* For the increased cost estimates see [Increased_Cost Estimate.csv](Increased_Cost Estimate.csv) or [this estimate on AWS Pricing Calculator](https://calculator.aws/#/estimate?id=4b41f3d1da8030b9468ce351c50ae5dd217c6cdd)
+* For the increased cost estimates see [Increased_Cost Estimate.csv](Increased_Cost Estimate.csv) or [this estimate on AWS Pricing Calculator](https://calculator.aws/#/estimate?id=8130a9e4a84355f9644cd4f167bdbb9d6302fe48)
   * More web and app servers to reach more users (both: 2 -> 6)
   * Double the number of RDS databases (1 -> 2) in order to provision a read replica in another region
   * Double storage and throughput for RDS, S3 and CloudFront 
@@ -27,3 +27,4 @@
 ![2 additional M4 EC2 instances](Terraform_2_1.png)
 ![VPC dashboard](Terraform_2_2.png)
 ![CloudWatch log of lambda function](Terraform_2_3.png)
+![Removed terraform infrastructure](Terraform_destroyed.png)

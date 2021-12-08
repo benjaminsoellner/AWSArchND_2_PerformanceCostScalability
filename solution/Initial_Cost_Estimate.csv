@@ -3,9 +3,10 @@ Initial_Cost_Estimate,US East (N. Virginia),,Amazon CloudFront,0,87.09,1045.08,U
 Initial_Cost_Estimate,US East (N. Virginia),average: 100 PUT and 10000 GET requests / user / month,S3 Standard,0,454.84,5458.08,USD,S3 Standard storage (1 TB per month)
 Initial_Cost_Estimate,US East (N. Virginia),average: 100 PUT and 10000 GET requests / user / month,Data Transfer,0,0,0.00,USD,"DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month)"
 Initial_Cost_Estimate,US East (N. Virginia),,Amazon Virtual Private Cloud (VPC),0,2282.85,27394.20,USD,Number of NAT Gateways (1)
-Initial_Cost_Estimate,US East (N. Virginia),App Server,Amazon EC2,0,2774.1,33289.20,USD,"Operating system (Linux), Quantity (2), Pricing strategy (EC2 Instance Savings Plans 1 Year No Upfront), Storage amount (3 TB), Instance type (c5.12xlarge), Provisioning IOPS io1 (1000)"
-Initial_Cost_Estimate,US East (N. Virginia),Webserver,Amazon EC2,0,1202.56,14430.72,USD,"Operating system (Linux), Quantity (2), Pricing strategy (EC2 Instance Savings Plans 1 Year No Upfront), Storage amount (3 TB), Instance type (t3.2xlarge), Provisioning IOPS io1 (1000)"
+Initial_Cost_Estimate,US East (N. Virginia),App Server,Amazon EC2,0,2774.1,33289.20,USD,"Operating system (Linux), Quantity (2), Pricing strategy (EC2 Instance Savings Plans 1 Year No UpFront), Storage amount (3 TB), Instance type (c5.12xlarge), Provisioning IOPS io1 (1000)"
+Initial_Cost_Estimate,US East (N. Virginia),Webserver,Amazon EC2,0,1202.56,14430.72,USD,"Operating system (Linux), Quantity (2), Pricing strategy (EC2 Instance Savings Plans 1 Year No UpFront), Storage amount (3 TB), Instance type (t3.2xlarge), Provisioning IOPS io1 (1000)"
 Initial_Cost_Estimate,US East (N. Virginia),,Amazon RDS for MySQL,0,1764.6,21175.20,USD,"Storage for each RDS instance (Provisioned IOPS SSD (io1)), Storage amount (1 TB), Provisioning IOPS (1000), Quantity (1), Instance type (db.m1.large), Utilization (On-Demand only) (100 %Utilized/Month), Deployment option (Multi-AZ), Pricing strategy (OnDemand), Additional backup storage (10 TB)"
+Initial_Cost_Estimate,US East (N. Virginia),,Application Load Balancer,0,36.91,442.92,USD,Number of Application Load Balancers (1)
 
 
 
